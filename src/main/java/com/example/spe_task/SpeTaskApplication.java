@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpeTaskApplication {
 	@GetMapping
 	public String message(){
-		return "welcome to javatechie";
+		return "welcome to My first program";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpeTaskApplication.class, args);
